@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.ArrayList;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertEquals;
+import io.cucumber.cucumberexpressions.ParameterType;
 
 
 public class CocktailSteps {
@@ -15,21 +16,30 @@ public class CocktailSteps {
     private Order order;
 
 
-    @Given("Romeo who wants to buy a drink")
-    public void romeoWantsToBuyADrink() {
+    @Given("(.*) who wants to buy a drink")
+    public void someoneWantsToBuyADrink(String person1) {
         order = new Order();
-        order.declareOwner("Romeo");
+        order.declareOwner(person1);
     }
 
-    @When("an order is declared for Juliette")
-    public void anOrderIsDeclaredForJuliette() {
-        order.declareTarget("Juliette");
-
+    @When("an order is declared for {person2}")
+    public void anOrderIsDeclaredForSomeone(String person2) {
+        order.declareTarget(person2);
     }
 
-    @Then("there is no cocktail in the order")
-    public void thereIsNoCocktailInTheOrder() {
-        List<String> cocktails =  order.getCocktails();
-        assertEquals(0, cocktails.size());
+    @When("an order is declared for {string} with {int} cocktails")
+    public void anOrderIsDeclaredForWithCocktails(String person2, int count) {
+        order.declareTarget(person2);
+        // Ajoutez la logique pour ajouter le nombre spécifié de cocktails à l'ordre
+        for (int i = 0; i < count; i++) {
+            order.addCocktail("Cocktail" + (i + 1));
+        }
     }
+
+    @Then("there are (\\d+) cocktails in the order")
+    public void thereAreCocktailsInTheOrder(int count) {
+        List<String> cocktails = order.getCocktails();
+        assertEquals(count, cocktails.size());
+    }
+
 }
