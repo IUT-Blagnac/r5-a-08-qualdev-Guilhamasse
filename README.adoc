@@ -42,6 +42,14 @@ image::images/tp2.png[tp2]
 
 === Tests fonctionnels
 
+Tout les tests ont fonctionné
+
+Dans notre exemple, on imagine un sc&nario où un utilisateur effectue une recherche sur un site web et vérifie que les résultats contiennent un terme spécifique.
+
+Les fichiers .java et .feature correspond sont dans le dossier "tp1" avec en nom "xyz" devant le fichier.
+
+image::images/tp3TestsValide.png[tp3]
+
 == TP4
 
 === Tests fonctionnels
