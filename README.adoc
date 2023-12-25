@@ -3,7 +3,7 @@
 :icons: font
 :MoSCoW: https://fr.wikipedia.org/wiki/M%C3%A9thode_MoSCoW[MoSCoW]
 
-Ce dépôt concerne les rendus de mailto:A_changer@etu.univ-tlse2.fr[Jonh Doe].
+Ce dépôt concerne les rendus de mailto:A_changer@etu.univ-tlse2.fr[Quentin Guilhamasse].
 
 == TP1
 
@@ -20,4 +20,28 @@ public void today_is_sunday() {
 .Exemple d'image insérée en asciidoc
 image::artifacts-r303.svg[width=80%]
 
-== TP2...
+=== Tests fontionnels
+
+image::images/tp1TestsFonctionnel.png[tpOk]
+
+=== Test non fonctionnel
+
+Le dernier test ne fonctionne pas, après plusieurs recherches, je ne comprend pas pourquoi.
+
+image::images/tp1TestNonFonctionnel.png[tp1NonOk]
+
+== TP2
+
+=== Tests fonctionnels
+
+Tout les tests fonctionnent pour ce TP.
+
+image::images/tp2.png[tp2]
+
+== TP3
+
+=== Tests fonctionnels
+
+== TP4
+
+=== Tests fonctionnels
