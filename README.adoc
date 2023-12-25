@@ -24,6 +24,8 @@ image::artifacts-r303.svg[width=80%]
 
 image::images/tp1TestsFonctionnel.png[tpOk]
 
+=== Test non fonctionnel
+
 Le dernier test ne fonctionne pas, après plusieurs recherches, je ne comprend pas pourquoi.
 
 image::images/tp1TestNonFonctionnel.png[tp1NonOk]
@@ -35,3 +37,11 @@ image::images/tp1TestNonFonctionnel.png[tp1NonOk]
 Tout les tests fonctionnent pour ce TP.
 
 image::images/tp2.png[tp2]
+
+== TP3
+
+=== Tests fonctionnels
+
+== TP4
+
+=== Tests fonctionnels
