@@ -20,4 +20,18 @@ public void today_is_sunday() {
 .Exemple d'image insérée en asciidoc
 image::artifacts-r303.svg[width=80%]
 
-== TP2...
+=== Tests fontionnels
+
+image::images/tp1TestNonFonctionnel.png
+
+Le dernier test ne fonctionne pas, après plusieurs recherches, je ne comprend pas pourquoi.
+
+image::images/tp1TestsFonctionnel.png
+
+== TP2
+
+=== Tests fonctionnels
+
+Tout les tests fonctionnent pour ce TP.
+
+image::images/tp2.png
