@@ -22,11 +22,11 @@ image::artifacts-r303.svg[width=80%]
 
 === Tests fontionnels
 
-image::images/tp1TestNonFonctionnel.png[tp1Ok]
+image::images/tp1TestsFonctionnel.png[tpOk]
 
 Le dernier test ne fonctionne pas, après plusieurs recherches, je ne comprend pas pourquoi.
 
-image::images/tp1TestsFonctionnel.png[tp1NonOk]
+image::images/tp1TestNonFonctionnel.png[tp1NonOk]
 
 == TP2
 
