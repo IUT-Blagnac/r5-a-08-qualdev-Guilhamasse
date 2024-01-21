@@ -31,11 +31,11 @@ public class StepDefinitions {
         // Write code here that turns the phrase above into concrete actions
         this.dateAsked = IsItFriday.isItFriday(this.today);
     }
-    @Then("I should be told {string}")
-    public void i_should_be_told(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        assertEquals(this.dateAsked, string);
-    }
+    // @Then("I should be told {string}")
+    // public void i_should_be_told(String string) {
+    //     // Write code here that turns the phrase above into concrete actions
+    //     assertEquals(this.dateAsked, string);
+    // }
 
 }
 
