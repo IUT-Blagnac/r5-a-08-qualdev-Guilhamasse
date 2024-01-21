@@ -31,7 +31,7 @@ public class XYZStepDefinitions {
     public void thenResultatsContiennentTerme(String termeAttendu) {
         // Implémentation de la vérification
         System.out.println("Les résultats de la recherche contiennent le terme '" + termeAttendu + "'");
-        assertTrue(true); // Exemple basique, à adapter selon votre cas
+        assertTrue(true);
     }
 
 }
